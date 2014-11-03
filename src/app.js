@@ -1,7 +1,7 @@
 'use strict';
 
 import meow from './cat';
-import wakey from './dog';
+import dog from './dog';
 
 export default function () {
     console.log('hey boo');
@@ -9,7 +9,7 @@ export default function () {
     meow();
 
 
-    var woofsh = wakey();
-    woofsh('Your mom');
+    var woofsh = dog.wakeUp('your mom');
+    woofsh();
 
 }

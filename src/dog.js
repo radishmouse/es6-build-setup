@@ -1,11 +1,16 @@
 'use strict';
 
-function wakeUp () {
+var dog = {
 
-    return (whom) => {
-        setInterval(() => console.log(`Bark at ${ whom }`), 500);
-    };
+    wakeUp: (whom) => {
 
-}
+        return (howOften=1500) => {
+            setInterval(() => console.log(`Bark at ${ whom }`), howOften);
+        };
 
-export default wakeUp;
+    }
+};
+
+
+
+export default dog;
