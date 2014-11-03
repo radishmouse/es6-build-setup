@@ -1,0 +1,25 @@
+{
+  "name": "es6-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "es6-module-loader": "^0.9.4",
+    "es6ify": "^1.5.1",
+    "gulp": "^3.8.9",
+    "gulp-plumber": "^0.6.6",
+    "gulp-tap": "^0.1.3",
+    "gulp-traceur": "^0.13.0",
+    "gulp-util": "^3.0.1",
+    "lodash": "^2.4.1",
+    "traceur": "0.0.72",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.1.1"
+  }
+}
