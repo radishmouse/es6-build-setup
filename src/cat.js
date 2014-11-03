@@ -13,6 +13,7 @@ export default function () {
 
     // brothers = []; // thanks to const...no reassignment happens
 
+    // another version of let scoping
     var silly = [];
     for (let i=0; i<10; i++) {
         // let c = i;
@@ -22,5 +23,7 @@ export default function () {
     }
 
     silly[4]();
+    silly[6]();
+    silly[7]();
 
 }
