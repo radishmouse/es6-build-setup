@@ -1,13 +1,14 @@
 'use strict';
 
-import meow from './cat';
+import cat from './cat';
+import {poop, meow} from './cat';
 import dog from './dog';
 
 export default function () {
-    console.log('hey boo');
+    poop();
     meow();
-    meow();
-
+    cat.meow();
+    cat.poop();
 
     var woofsh = dog.wakeUp('your mom');
     woofsh();

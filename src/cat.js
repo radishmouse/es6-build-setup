@@ -1,29 +1,16 @@
 'use strict';
 
-const brothers = [{name: 'larry', age: 5}, {name: 'daryl', age: 7}, {name: 'daryl', age: 9}];
 
-export default function () {
-    console.log('meow bitch!');
-
-    for (var brother of brothers) {
-        var {age, name} = brother;
-        // String interpolation! a.k.a template strings
-        console.log(`${ name } is of the age ${ age } this year`);
-    }
-
-    // brothers = []; // thanks to const...no reassignment happens
-
-    // another version of let scoping
-    var silly = [];
-    for (let i=0; i<10; i++) {
-        // let c = i;
-        silly[i] = function () {
-            console.log(`The number you want is ${ i }`);
-        };
-    }
-
-    silly[4]();
-    silly[6]();
-    silly[7]();
-
+export function poop () {
+    console.log('In the litter box I go!');
 }
+// export default function () {
+export function meow () {
+    console.log('Hey. Wake up!');
+}
+
+export default {
+    meow: meow,
+    poop: poop
+};
+
