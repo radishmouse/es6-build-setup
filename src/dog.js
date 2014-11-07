@@ -2,6 +2,9 @@
 
 var dog = {
 
+    poot: function* () {
+        yield 'poot';
+    },
     wakeUp: (whom) => {
 
         return (howOften=1500) => {

@@ -7,12 +7,14 @@ This bundle is used by `app/index.html` and mainly logs to the browser console.
 
 * modules
 * [for..of iteration](http://tc39wiki.calculist.org/es6/for-of/)
-* const
-* [let scoping](http://tc39wiki.calculist.org/es6/block-scoping/)
-* destructuring assignment
+* [block scoping](http://tc39wiki.calculist.org/es6/block-scoping/) (let and const)
+* [destructuring assignment](https://code.google.com/p/traceur-compiler/wiki/LanguageFeatures#Destructuring_Assignment)
 * string interpolation (template strings)
 * [fat arrow functions](http://tc39wiki.calculist.org/es6/arrow-functions/)
 * [default parameter values](http://tc39wiki.calculist.org/es6/default-parameter-values/)
+* [spread operator](https://code.google.com/p/traceur-compiler/wiki/LanguageFeatures#Spread_Operator)
+* [class syntax](https://code.google.com/p/traceur-compiler/wiki/LanguageFeatures#Classes)
+* [generators](https://code.google.com/p/traceur-compiler/wiki/LanguageFeatures#Generators)
 
 
 Note: I'm using [Traceur](https://github.com/google/traceur-compiler) to transpile from ES6->ES5, which only gives us about half the features.  
